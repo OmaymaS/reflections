@@ -1,0 +1,47 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Intermediate phase before commits
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-----------------
+
+git init
+git status
+git add 
+
+git diff (nothing..)
+	-compare files in working directory and staging area
+
+git diff --unstaged
+	-compare files in staging area and the most recent commit in repository
+
+-------------------
+
+git branch
+	-list branches
+
+git branch "label"
+	-create a branch labelled as label
+
+git checkout "branch label"
+
+
+git log --graph --oneline "branch label 1" "branch label 2"
+
+
+git merge "branch2" "branch"
+	-merge both branches
+
+git branch -d "branch"
+	-delete branch
+
+git log -n 1
+	-show "n" logs
