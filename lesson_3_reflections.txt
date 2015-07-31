@@ -1,4 +1,17 @@
-When would you want to use a remote repository rather than keeping all your work
-local?
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-    to keep the work and collaborate with others.
+--------------------
+git remote
+	-show remote 
+
+git remote "title"
+	-create and name remote
+
+git remote add "title" "url"
+	-push an existing repository from the command line
+
+git remote -v
+
+git push "title" "branch title-local"
+
+git pull"title" "branch title-local"
